@@ -31,6 +31,12 @@
 # `train` is informational and follows release.adoc: the X.Y of the web
 # component names the release as a whole.
 
-train: null
+train: 2.5
 
-components: {}
+components:
+  web:
+    # patch; 2 pull requests since 2.5.0
+    version: 2.5.1
+  wanda:
+    # patch; 1 pull request since 1.5.0
+    version: 1.5.1
