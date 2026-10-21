@@ -9,16 +9,16 @@ Trento is an open-source web application, built by [SUSE](https://www.suse.com),
 
 ### Latest releases
 
-| Project | Latest GitHub release | OBS `devel:sap:trento` | OBS `devel:sap:trento:factory` |
-| --- | --- | --- | --- |
-| [web](https://github.com/trento-project/web) | [`3.2.0`](https://github.com/trento-project/web/releases/tag/3.2.0) | [`3.2.0`](https://build.opensuse.org/package/show/devel:sap:trento/trento-web) | [`3.2.0+git.0.1792505281.ee4669d424`](https://build.opensuse.org/package/show/devel:sap:trento:factory/trento-web) |
-| [wanda](https://github.com/trento-project/wanda) | [`2.2.0`](https://github.com/trento-project/wanda/releases/tag/2.2.0) | [`2.2.0`](https://build.opensuse.org/package/show/devel:sap:trento/trento-wanda) | [`2.2.0+git.0.1792491519.15b9f301`](https://build.opensuse.org/package/show/devel:sap:trento:factory/trento-wanda) |
-| [checks](https://github.com/trento-project/checks) | [`1.4.0`](https://github.com/trento-project/checks/releases/tag/1.4.0) | [`1.4.0`](https://build.opensuse.org/package/show/devel:sap:trento/trento-checks) | [`1.4.0+git.0.1792491543.76857bc`](https://build.opensuse.org/package/show/devel:sap:trento:factory/trento-checks) |
-| [agent](https://github.com/trento-project/agent) | [`3.2.0`](https://github.com/trento-project/agent/releases/tag/3.2.0) | [`3.2.0`](https://build.opensuse.org/package/show/devel:sap:trento/trento-agent) | [`3.2.0+git.0.1792491515.b6582d7`](https://build.opensuse.org/package/show/devel:sap:trento:factory/trento-agent) |
-| [support](https://github.com/trento-project/support) | [`3.2.0`](https://github.com/trento-project/support/releases/tag/3.2.0) | [`3.2.0`](https://build.opensuse.org/package/show/devel:sap:trento/supportutils-plugin-trento) | [`3.2.0+git.0.1792491601.1c92412`](https://build.opensuse.org/package/show/devel:sap:trento:factory/supportutils-plugin-trento) |
-| [mcp-server](https://github.com/trento-project/mcp-server) | [`1.2.0`](https://github.com/trento-project/mcp-server/releases/tag/1.2.0) | [`1.2.0`](https://build.opensuse.org/package/show/devel:sap:trento/mcp-server-trento) | [`1.2.0+git.0.1792491564.f560008`](https://build.opensuse.org/package/show/devel:sap:trento:factory/mcp-server-trento) |
-| [ansible](https://github.com/trento-project/ansible) | [`1.1.0`](https://github.com/trento-project/ansible/releases/tag/1.1.0) | [`1.1.0`](https://build.opensuse.org/package/show/devel:sap:trento/ansible-trento) | [`1.1.0+git.0.1792491551.bb51d64`](https://build.opensuse.org/package/show/devel:sap:trento:factory/ansible-trento) |
-| [helm-charts](https://github.com/trento-project/helm-charts) | [`3.2.0`](https://github.com/trento-project/helm-charts/releases/tag/3.2.0) | [`3.2.0`](https://build.opensuse.org/package/show/devel:sap:trento/trento-server-helm) | [`3.2.0`](https://build.opensuse.org/package/show/devel:sap:trento:factory/trento-server-helm) |
+| Project | Latest GitHub release |
+| --- | --- |
+| [web](https://github.com/nelsonkopliku/web) | [`2.5.0`](https://github.com/nelsonkopliku/web/releases/tag/2.5.0) |
+| [wanda](https://github.com/nelsonkopliku/wanda) | [`1.5.0`](https://github.com/nelsonkopliku/wanda/releases/tag/1.5.0) |
+| [checks](https://github.com/nelsonkopliku/checks) | — |
+| [agent](https://github.com/nelsonkopliku/agent) | — |
+| [support](https://github.com/nelsonkopliku/support) | — |
+| [mcp-server](https://github.com/nelsonkopliku/mcp-server) | — |
+| [ansible](https://github.com/nelsonkopliku/ansible) | — |
+| [helm-charts](https://github.com/nelsonkopliku/helm-charts) | — |
 
 ### Available in SUSE Linux Enterprise Server for SAP applications
 
@@ -34,6 +34,6 @@ Trento is an open-source web application, built by [SUSE](https://www.suse.com),
 
 Packages reach these products through the `SLES_SAP`, `sle-module-sap-applications` channels.
 
-<sub>Generated from the GitHub, OBS and SCC APIs on 2026-10-21 07:37 UTC. Do not edit by hand.</sub>
+<sub>Generated from the GitHub, OBS and SCC APIs on 2026-10-21 12:37 UTC. Do not edit by hand.</sub>
 
 <!-- END trento-release-status -->
