@@ -130,6 +130,10 @@ jobs:
       # Build the merge commit from the tree of `main` instead.
       - name: Merge `main` into `release`
         run: |
+          # Like "git merge", make no commit when release already contains main.
+          if git merge-base --is-ancestor main release; then
+            exit 0
+          fi
           commit=$(git commit-tree -S 'main^{tree}' -p release -p main \
                      -m "Release ${{ needs.pre-release.outputs.version }}" \
                      -m "[skip ci]")
