@@ -208,7 +208,7 @@ jobs:
           repository: ${{ github.repository }}
           changes-file: ${{ env.OBS_IMAGE_PACKAGE }}.changes
           author-email: ${{ env.AUTHOR_EMAIL }}
-          github-token: ${{ secrets.gh_token }}
+          gh-token: ${{ secrets.gh_token }}
 
       - name: Push
         if: steps.sync.outputs.changed == 'true'

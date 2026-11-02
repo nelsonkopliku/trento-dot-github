@@ -33,7 +33,7 @@ inputs:
     description: Path of the container folder in the GitHub repository.
     required: false
     default: packaging/suse/container
-  github-token:
+  gh-token:
     description: Token for the GitHub API lookup of the pull requests.
     required: false
     default: ""
@@ -57,7 +57,7 @@ runs:
         CHANGES_FILE: ${{ inputs.changes-file }}
         AUTHOR_EMAIL: ${{ inputs.author-email }}
         CONTAINER_DIR: ${{ inputs.container-dir }}
-        GITHUB_TOKEN: ${{ inputs.github-token }}
+        GITHUB_TOKEN: ${{ inputs.gh-token }}
       # Inside a container job, the github.action_path expression is the path on
       # the host. The GITHUB_ACTION_PATH variable is the path in the container.
       run: '"$GITHUB_ACTION_PATH/sync-container-files.sh"'
